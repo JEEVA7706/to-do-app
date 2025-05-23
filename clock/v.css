@@ -1,0 +1,61 @@
+/* Add a calm gradient background or solid color */
+.background4 {
+  /* Option 1: Soft blue solid background */
+  background-color: #e0f7fa;
+
+  /* Option 2 (Optional): Nice gradient */
+  /* background: linear-gradient(135deg, #e0f7fa, #b2ebf2); */
+}
+
+/* General body styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Clock container */
+.clock-container {
+  background:paleturquoise;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+/* Time display */
+.time {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+/* Date display */
+.date {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Responsive for mobile */
+@media (max-width: 480px) {
+  .time {
+    font-size: 2.4rem;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+}
